@@ -1,0 +1,125 @@
+2024-07-13 20:16:06,256 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "e:\IOT\SmartGarden\gui.py", line 455, in <module>
+    mainwin = MainWindow()
+  File "e:\IOT\SmartGarden\gui.py", line 441, in __init__
+    self.tempDock = TempDock(self.mc)
+  File "e:\IOT\SmartGarden\gui.py", line 254, in __init__
+    formLayot.addRow("Refrigerator",self.tRefrigerator)
+AttributeError: 'TempDock' object has no attribute 'tRefrigerator'
+2024-07-13 20:16:11,783 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "e:\IOT\SmartGarden\gui.py", line 455, in <module>
+    mainwin = MainWindow()
+  File "e:\IOT\SmartGarden\gui.py", line 441, in __init__
+    self.tempDock = TempDock(self.mc)
+  File "e:\IOT\SmartGarden\gui.py", line 254, in __init__
+    formLayot.addRow("Refrigerator",self.tRefrigerator)
+AttributeError: 'TempDock' object has no attribute 'tRefrigerator'
+2024-07-13 20:23:57,183 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "e:\IOT\SmartGarden\gui.py", line 459, in <module>
+    mainwin = MainWindow()
+  File "e:\IOT\SmartGarden\gui.py", line 447, in __init__
+    self.airconditionDock= AirconditionDock(self.mc)
+  File "e:\IOT\SmartGarden\gui.py", line 308, in __init__
+    self.settemp=random(22,24)
+TypeError: 'module' object is not callable
+2024-07-13 20:24:00,342 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "e:\IOT\SmartGarden\gui.py", line 459, in <module>
+    mainwin = MainWindow()
+  File "e:\IOT\SmartGarden\gui.py", line 447, in __init__
+    self.airconditionDock= AirconditionDock(self.mc)
+  File "e:\IOT\SmartGarden\gui.py", line 308, in __init__
+    self.settemp=random(22,24)
+TypeError: 'module' object is not callable
+2024-07-13 20:24:04,005 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "e:\IOT\SmartGarden\gui.py", line 459, in <module>
+    mainwin = MainWindow()
+  File "e:\IOT\SmartGarden\gui.py", line 447, in __init__
+    self.airconditionDock= AirconditionDock(self.mc)
+  File "e:\IOT\SmartGarden\gui.py", line 308, in __init__
+    self.settemp=random(22,24)
+TypeError: 'module' object is not callable
+2024-07-13 20:24:14,911 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "e:\IOT\SmartGarden\gui.py", line 459, in <module>
+    mainwin = MainWindow()
+  File "e:\IOT\SmartGarden\gui.py", line 447, in __init__
+    self.airconditionDock= AirconditionDock(self.mc)
+  File "e:\IOT\SmartGarden\gui.py", line 308, in __init__
+    self.settemp=random(22,24)
+TypeError: 'module' object is not callable
+2024-07-13 20:24:28,407 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "e:\IOT\SmartGarden\gui.py", line 459, in <module>
+    mainwin = MainWindow()
+  File "e:\IOT\SmartGarden\gui.py", line 447, in __init__
+    self.airconditionDock= AirconditionDock(self.mc)
+  File "e:\IOT\SmartGarden\gui.py", line 308, in __init__
+    self.settemp=random(22,24)
+TypeError: 'module' object is not callable
+2024-07-13 20:29:27,353 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "e:\IOT\SmartGarden\gui.py", line 460, in <module>
+    mainwin = MainWindow()
+  File "e:\IOT\SmartGarden\gui.py", line 448, in __init__
+    self.airconditionDock= AirconditionDock(self.mc)
+  File "e:\IOT\SmartGarden\gui.py", line 318, in __init__
+    self.md.currentIndexChanged.connect(self.md_selectionchange)
+AttributeError: 'QLineEdit' object has no attribute 'currentIndexChanged'
+2024-07-13 20:29:30,833 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "e:\IOT\SmartGarden\gui.py", line 460, in <module>
+    mainwin = MainWindow()
+  File "e:\IOT\SmartGarden\gui.py", line 448, in __init__
+    self.airconditionDock= AirconditionDock(self.mc)
+  File "e:\IOT\SmartGarden\gui.py", line 318, in __init__
+    self.md.currentIndexChanged.connect(self.md_selectionchange)
+AttributeError: 'QLineEdit' object has no attribute 'currentIndexChanged'
+2024-07-13 20:29:40,972 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "e:\IOT\SmartGarden\gui.py", line 460, in <module>
+    mainwin = MainWindow()
+  File "e:\IOT\SmartGarden\gui.py", line 448, in __init__
+    self.airconditionDock= AirconditionDock(self.mc)
+  File "e:\IOT\SmartGarden\gui.py", line 318, in __init__
+    self.md.currentIndexChanged.connect(self.md_selectionchange)
+AttributeError: 'QLineEdit' object has no attribute 'currentIndexChanged'
+2024-07-13 20:48:50,331 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "e:\IOT\SmartGarden\gui.py", line 459, in <module>
+    mainwin = MainWindow()
+  File "e:\IOT\SmartGarden\gui.py", line 453, in __init__
+    self.addDockWidget(Qt.BottomDockWidgetArea, self.graphsDock)
+AttributeError: 'MainWindow' object has no attribute 'graphsDock'
+2024-07-13 20:49:25,252 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "e:\IOT\SmartGarden\gui.py", line 459, in <module>
+    mainwin = MainWindow()
+  File "e:\IOT\SmartGarden\gui.py", line 453, in __init__
+    self.addDockWidget(Qt.BottomDockWidgetArea, self.graphsDock)
+AttributeError: 'MainWindow' object has no attribute 'graphsDock'
+2024-07-13 20:50:03,191 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "e:\IOT\SmartGarden\gui.py", line 459, in <module>
+    mainwin = MainWindow()
+  File "e:\IOT\SmartGarden\gui.py", line 448, in __init__
+    self.plotsDock = PlotDock()
+NameError: name 'PlotDock' is not defined
+2024-07-13 20:50:38,722 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "e:\IOT\SmartGarden\gui.py", line 459, in <module>
+    mainwin = MainWindow()
+  File "e:\IOT\SmartGarden\gui.py", line 448, in __init__
+    self.plotsDock = PlotDock()
+NameError: name 'PlotDock' is not defined
+2024-07-13 20:50:46,686 : ERROR : __main__ : GUI Crash!
+Traceback (most recent call last):
+  File "e:\IOT\SmartGarden\gui.py", line 459, in <module>
+    mainwin = MainWindow()
+  File "e:\IOT\SmartGarden\gui.py", line 448, in __init__
+    self.plotsDock = PlotDock()
+NameError: name 'PlotDock' is not defined
